@@ -60,16 +60,18 @@ BENCH(NlFromJson);
 
 void NlToJson(benchmark::State& state)
 {
+    const auto user = data::CreateUser();
     for (auto _ : state) {
-        const nl::json userJson = data::CreateUser();
+        const nl::json userJson = user;
     }
 }
 BENCH(NlToJson);
 
 void NlStringify(bench::State& state)
 {
+    const auto user = data::CreateUser();
     for (auto _ : state) {
-        const nl::json userJson = data::CreateUser();
+        const nl::json userJson = user;
         const std::string userJsonStr = userJson.dump();
     }
 }
