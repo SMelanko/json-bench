@@ -13,3 +13,20 @@ NlFromJsonV2/iterations:1000000         2295 ns       2292 ns    1000000
 NlToJson/iterations:1000000             4608 ns       4602 ns    1000000
 NlStringify/iterations:1000000          6316 ns       6306 ns    1000000er
 ```
+
+```bash
+Run on (4 X 3600 MHz CPU s)
+CPU Caches:
+  L1 Data 32K (x4)
+  L1 Instruction 32K (x4)
+  L2 Unified 256K (x4)
+  L3 Unified 6144K (x1)
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+-----------------------------------------------------------------------
+Benchmark                                Time           CPU Iterations
+-----------------------------------------------------------------------
+NlCreateJson/iterations:1000000       3103 ns       3102 ns    1000000   4.91966MB/s   314.858k items/s
+NlFromJson/iterations:1000000         3274 ns       3274 ns    1000000
+NlToJson/iterations:1000000            942 ns        941 ns    1000000
+NlStringify/iterations:1000000        2124 ns       2124 ns    1000000
+```
