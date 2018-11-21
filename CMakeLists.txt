@@ -24,7 +24,7 @@ add_executable(${PROJECT_NAME}
     Data.cpp Data.h
     JsonForModernCppBench.cpp JsonForModernCppBench.h
     RapidJsonBench.cpp RapidJsonBench.h
-)
+    JsonCppBench.cpp JsonCppBench.h)
 
 target_link_libraries(${PROJECT_NAME}
     PUBLIC

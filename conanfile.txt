@@ -1,5 +1,6 @@
 [requires]
 google-benchmark/1.4.1@mpusz/stable
+jsoncpp/1.8.4@theirix/stable
 jsonformoderncpp/3.2.0@vthiery/stable
 rapidjson/1.1.0@bincrafters/stable
 
