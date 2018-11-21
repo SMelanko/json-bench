@@ -1,9 +1,5 @@
 #include "JsonCppBench.h"
 
-#include <iostream>
-#include <memory>
-#include <sstream>
-
 namespace data::json {
 
 data::UserInfo FromJson(const Json::Value& userJson)
@@ -47,7 +43,7 @@ static Json::Value CreateUserJson(const std::string& str)
     return root;
 }
 
-static Json::Value CreateUserJsonV1(const std::string& str)
+[[maybe_unused]] static Json::Value CreateUserJsonV1(const std::string& str)
 {
     Json::CharReaderBuilder builder;
     Json::CharReader* reader = builder.newCharReader();
