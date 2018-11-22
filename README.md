@@ -4,6 +4,8 @@
 vs [RapidJSON](http://rapidjson.org)
 vs [JsonCpp](https://github.com/open-source-parsers/jsoncpp)
 
+## Benchmark Result
+
 ```bash
 Run on (8 X 2300 MHz CPU s)
 CPU Caches:
