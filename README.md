@@ -56,3 +56,19 @@ JcFromJson/iterations:1000000         2903 ns       2903 ns    1000000
 JcToJson/iterations:1000000            767 ns        767 ns    1000000
 JcStringify/iterations:1000000        2906 ns       2906 ns    1000000
 ```
+
+## Str -> JSON
+
+<img align="center" alt="pipecat" src="./imgs/1.png" />
+
+## JSON -> C++ struct
+
+<img align="center" alt="pipecat" src="./imgs/2.png" />
+
+## C++ struct -> JSON
+
+<img align="center" alt="pipecat" src="./imgs/3.png" />
+
+## C++ struct -> Str
+
+<img align="center" alt="pipecat" src="./imgs/4.png" />
