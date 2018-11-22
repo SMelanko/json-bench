@@ -41,13 +41,18 @@ CPU Caches:
 -----------------------------------------------------------------------
 Benchmark                                Time           CPU Iterations
 -----------------------------------------------------------------------
-NlCreateJson/iterations:1000000       3029 ns       3029 ns    1000000   5.03732MB/s   322.388k items/s
-NlFromJson/iterations:1000000         3274 ns       3274 ns    1000000
-NlToJson/iterations:1000000            910 ns        910 ns    1000000
-NlStringify/iterations:1000000        2112 ns       2112 ns    1000000
+NlCreateJson/iterations:1000000       3424 ns       3424 ns    1000000   4.45645MB/s   285.213k items/s
+NlFromJson/iterations:1000000         3605 ns       3605 ns    1000000
+NlToJson/iterations:1000000            946 ns        946 ns    1000000
+NlStringify/iterations:1000000        2053 ns       2053 ns    1000000
 
-RaCreateJson/iterations:1000000        662 ns        662 ns    1000000   138.381MB/s   1.44147M items/s
-RaFromJson/iterations:1000000          856 ns        856 ns    1000000
-RaToJson/iterations:1000000            161 ns        161 ns    1000000
-RaStringify/iterations:1000000         646 ns        646 ns    1000000
+RaCreateJson/iterations:1000000        666 ns        666 ns    1000000   137.484MB/s   1.43212M items/s
+RaFromJson/iterations:1000000          891 ns        891 ns    1000000
+RaToJson/iterations:1000000            172 ns        172 ns    1000000
+RaStringify/iterations:1000000         678 ns        678 ns    1000000
+
+JcCreateJson/iterations:1000000       2565 ns       2565 ns    1000000   14.8709MB/s   380.696k items/s
+JcFromJson/iterations:1000000         2903 ns       2903 ns    1000000
+JcToJson/iterations:1000000            767 ns        767 ns    1000000
+JcStringify/iterations:1000000        2906 ns       2906 ns    1000000
 ```
