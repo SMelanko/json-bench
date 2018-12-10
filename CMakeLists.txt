@@ -22,7 +22,9 @@ add_executable(${PROJECT_NAME}
     Data.cpp Data.h
     JsonForModernCppBench.cpp JsonForModernCppBench.h
     RapidJsonBench.cpp RapidJsonBench.h
-    JsonCppBench.cpp JsonCppBench.h)
+    JsonCppBench.cpp JsonCppBench.h
+    #rtb/OpenRtb.cpp rtb/OpenRtb.h rtb/Types.h rtb/OpenRtbRef.h
+)
 
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_17)
 target_compile_options(${PROJECT_NAME}
